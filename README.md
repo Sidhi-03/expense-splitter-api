@@ -26,6 +26,6 @@ A Node.js backend API to manage and split shared expenses between users and grou
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/expense-splitter-api.git
+git clone https://github.com/sidhi-03/expense-splitter-api.git
 cd expense-splitter-api
 npm install
