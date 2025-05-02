@@ -1,0 +1,25 @@
+API Endpoints
+👤 User Routes
+Method	Endpoint	Description
+POST	/api/users	Register new user
+GET	/api/users	List all users
+
+👥 Group Routes
+Method	Endpoint	Description
+POST	/api/groups	Create new group
+PUT	/api/groups/:id/add	Add user to group
+
+💵 Expense Routes
+Method	Endpoint	Description
+POST	/api/expenses	Add expense to group
+GET	/api/expenses/:groupId	List all expenses in group
+GET	/api/settle/:groupId	Calculate net balances
+
+✅ Sample Result (Balance Settlement)
+json
+Copy
+Edit
+[
+  { "user": "Alice", "owes": "Bob", "amount": 50 },
+  { "user": "Charlie", "owes": "Alice", "amount": 25 }
+]
